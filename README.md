@@ -83,3 +83,6 @@ En el 2do programa las Instrucciones son  0x8, 0x9, 0xA, 0xB y 0xC; Y los Datos 
 ```
 
 5. Una mejora que le podríamos hacer a esta computadora es duplicar la cantidad de memoria, pasar de 16 bytes a 32 bytes. ¿Cómo lo harían manteniendo la longitud de las instrucciones en 8 bits? ¿Qué partes de la CPU habría que modificar y cómo?
+
+
+**RTA:** Para ampliar la cantidad de memoria habria que agregar una memoria ed 16 bytes extra. Con esta memoria extra, podemos usar una memoria para guardar instrucciones que va a ejecutar la CPU y la otra para almacenar los datos que se usan para las operaciones
